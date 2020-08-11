@@ -26,9 +26,9 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
-    margin-bottom: 3.2rem;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
     text-align: left;
 
     @include respond(tab-land) {
@@ -45,6 +45,20 @@
     @include respond(phone-xs) {
       font-size: 2.8rem;
     }
+  }
+
+  .hero-title.title {
+    margin-bottom: 5rem;
+  }
+
+  .hero-title.subtitle {
+    font-size: 2.5rem;
+    // font-variant: small-caps;
+  }
+
+  .hero-title.intro {
+    font-size: 2.2rem;
+    line-height: 4rem;
   }
 
   .hero-cta {

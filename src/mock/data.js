@@ -2,26 +2,28 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Sharanya Soundararajan  |  Portfolio',
+  lang: 'en', // e.g: en, es, fr, jp
+  description: "Sharanya's corner of the web",
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hiya, I'm Sharanya --",
+  name: 'Sharanya Soundararajan',
+  subtitle: 'UX engineer  |  Builder of things',
+  intro:
+    "I have a background in visual communication and user experience design, and I'm passionate about engineering engaging experiences using a variety of media, frequently combining art and code. \n I currently work as an engineer at Autodesk.",
+  cta: 'About me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'Sharanya_mugshot.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,7 +31,16 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
+    title: 'Malloci',
+    info: '',
+    info2: '',
+    url: 'https://mallocivr.github.io',
+    repo: 'https://github.com/mallocivr/mallocivr.github.io', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'Save Our Species',
     info: '',
     info2: '',
     url: '',
@@ -38,16 +49,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
+    title: 'AR Memory',
     info: '',
     info2: '',
     url: '',
@@ -55,21 +57,9 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
-};
-
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
     {
       id: uuidv1(),
       name: 'codepen',
@@ -90,5 +80,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
