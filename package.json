@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://sharanya204.github.io/sharanya204.github.io",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b master -r https://github.com/sharanya204/sharanya204.github.io",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
