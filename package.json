@@ -4,6 +4,7 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://sharanya204.github.io/sharanya204.github.io",
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
@@ -53,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/sharanya204sharanya204.github.io"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
