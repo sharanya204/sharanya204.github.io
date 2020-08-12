@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://sharanya204.github.io/sharanya204.github.io",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sharanya204sharanya204.github.io"
+    "url": "https://github.com/sharanya204/sharanya204.github.io"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
