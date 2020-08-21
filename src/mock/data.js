@@ -13,7 +13,7 @@ export const heroData = {
   name: 'Sharanya Soundararajan',
   subtitle: 'UX engineer  |  Builder of things',
   intro:
-    "I have a background in visual communication and user experience design, and I'm passionate about engineering engaging experiences using a variety of media, frequently combining art and code. \n I currently work as an engineer focusing on developer experience at Autodesk.",
+    "I have a background in visual communication and user experience design, and I'm passionate about engineering engaging experiences using a variety of media, frequently combining art and code. \n I'm currently part of a team working on developer experience at Autodesk.",
   cta: 'About me',
 };
 

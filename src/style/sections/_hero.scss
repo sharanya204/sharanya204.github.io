@@ -61,19 +61,15 @@
     line-height: 4rem;
   }
 
-  .hero-cta {
-    display: flex;
-
-    @include respond(tab-port) {
-      justify-content: center;
-    }
-
-    & a {
-      font-size: 2.4rem;
-
-      @include respond(phone) {
-        font-size: 2rem;
-      }
+  .hero-transition i {
+    color: $dark-blue-text;
+    margin: 1rem 0 $default-font-size;
+    transition: all 0.2s ease-in;
+  
+    &:hover {
+      color: $secondary-color;
+      transform: translateY(2px);
     }
   }
+  
 }

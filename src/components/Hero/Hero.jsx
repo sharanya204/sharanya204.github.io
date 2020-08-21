@@ -5,7 +5,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, subtitle, intro, cta } = hero;
+  const { title, subtitle, intro } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -31,11 +31,9 @@ const Header = () => {
           <h1 className="hero-title intro">{intro}</h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
-            <a className="cta-btn cta-btn--hero" href="#about">
-              {cta || 'About me'}
-            </a>
-          </p>
+          <a href="#projects" aria-label="To Projects" className="hero-transition">
+            <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
+          </a>
         </Fade>
       </Container>
     </section>
