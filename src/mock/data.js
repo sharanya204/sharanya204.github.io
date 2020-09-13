@@ -14,7 +14,6 @@ export const heroData = {
   subtitle: 'UX engineer  |  Builder of things',
   intro:
     "I have a background in visual communication and user experience design, and I'm passionate about engineering engaging experiences using a variety of media, frequently combining art and code. \n I'm currently part of a team working on developer experience at Autodesk.",
-  cta: 'About me',
 };
 
 // ABOUT DATA
@@ -32,7 +31,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'project.jpg',
     title: 'Malloci',
-    info: '',
+    info: 'Capstone project for grad school, ',
     info2: '',
     url: 'https://mallocivr.github.io',
     repo: 'https://github.com/mallocivr/mallocivr.github.io', // if no repo, the button will not show up
@@ -41,6 +40,15 @@ export const projectsData = [
     id: uuidv1(),
     img: 'project.jpg',
     title: 'Save Our Species',
+    info: 'A collaborative curation of infographics illustrating the ',
+    info2: '',
+    url: '',
+    repo: 'https://sharanya204.github.io/sos/', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'AR Memory',
     info: '',
     info2: '',
     url: '',
@@ -49,7 +57,47 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: 'AR Memory',
+    title: 'Android Auto',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'Geodesic Dome',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+];
+
+// WORK EXP DATA
+export const workexData = [
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'Autodesk',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'Tata Elxsi',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: 'Mercedes Benz',
     info: '',
     info2: '',
     url: '',
