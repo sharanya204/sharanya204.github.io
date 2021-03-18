@@ -29,21 +29,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: '01-malloci.png',
     title: 'Malloci',
-    info: 'Capstone project for grad school, ',
+    info: 'Capstone project for grad school increasing the accessibility of VR',
     info2: '',
     url: 'https://mallocivr.github.io',
     repo: 'https://github.com/mallocivr/mallocivr.github.io', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: '02-sos.png',
     title: 'Save Our Species',
-    info: 'A collaborative curation of infographics illustrating the ',
+    info:
+      'A collaborative curation of infographics illustrating the dire straits of endangered species at the hands of humans',
     info2: '',
-    url: '',
-    repo: 'https://sharanya204.github.io/sos/', // if no repo, the button will not show up
+    url: 'https://sharanya204.github.io/sos/',
+    repo: 'https://github.com/sharanya204/sos/', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
