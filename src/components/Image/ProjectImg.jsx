@@ -1,7 +1,7 @@
-import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import PropTypes from "prop-types";
+import Img from "gatsby-image";
 
 const ProjectImg = ({ filename, alt }) => (
   <StaticQuery
@@ -22,8 +22,8 @@ const ProjectImg = ({ filename, alt }) => (
         }
       }
     `}
-    render={data => {
-      const image = data.images.edges.find(n => {
+    render={(data) => {
+      const image = data.images.edges.find((n) => {
         return n.node.relativePath.includes(filename);
       });
 
