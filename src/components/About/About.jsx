@@ -43,15 +43,14 @@ const About = () => {
             >
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  I have a background in visual communication and user
-                  experience design. I'm passionate about engineering engaging
-                  experiences using a variety of media, and enjoy combining
-                  design and code.
+                  I have a background in design, fluency in a variety
+                  of back end and front end development paradigms, and I'm
+                  passionate about engineering engaging experiences.
                 </p>
                 <p className="about-wrapper__info-text">
-                  I also like hiking into hilly terrain, drawing comics about
-                  archaic medical practices, and writing tumultuous space
-                  operas.
+                  I'm also an extremely ardent climber of rocks.
+                  I draw comics about archaic medical practices.
+                  I like playing Counterfactuals.
                 </p>
               </div>
             </Fade>

@@ -39,9 +39,8 @@ const Hero = () => {
             UX enthusiast and builder of things
           </h1>
           <h1 className="hero-title intro">
-            I have a background in visual communication and user experience
-            design, and I'm passionate about engineering engaging experiences
-            using a variety of media, frequently combining art and code.
+            I work as a software developer improving developer
+            experience at Autodesk
           </h1>
         </Fade>
         <Fade
