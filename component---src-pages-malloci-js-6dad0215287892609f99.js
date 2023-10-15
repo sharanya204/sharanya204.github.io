@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksharanya_land=self.webpackChunksharanya_land||[]).push([[522],{7821:function(e,t,a){a.r(t),a.d(t,{default:function(){return s}});var n=a(7294),r=a(1597),c=function(){return n.createElement("nav",{className:"nav"},n.createElement(r.rU,{className:"nav__text",to:"/"},"Home"),n.createElement(r.rU,{className:"nav__text",to:"/#projects"},"Projects"),n.createElement(r.rU,{className:"nav__text",to:"/#about"},"About"))},s=function(){return n.createElement(c,null)}}}]);
-//# sourceMappingURL=component---src-pages-malloci-js-6dad0215287892609f99.js.map
