@@ -1,5 +1,6 @@
 import * as React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import favicon from "../images/icon.png";
 import "../style/main.scss";
 import { Helmet } from "react-helmet";
 // import {
@@ -17,12 +18,13 @@ const index = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{"Sharanya Soundararajan  |  Portfolio"}</title>
+        <title>{"Sharanya Soundararajan"}</title>
         <html lang={"en"} />
         <meta
           name="description"
-          content={"Sharanya Soundararajan  |  Portfolio"}
+          content={"Sharanya Soundararajan"}
         />
+        <link rel="icon" type="image/png" href={favicon} />
       </Helmet>
       <Router basepath="/">
         {/* <Hero path="/" /> */}

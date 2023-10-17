@@ -2,7 +2,7 @@ import { v1 as uuidv1 } from "uuid";
 
 // HEAD DATA
 export const headData = {
-  title: "Sharanya Soundararajan  |  Portfolio",
+  title: "Sharanya Soundararajan",
   lang: "en",
   description: "Sharanya's corner of the web",
 };
@@ -32,7 +32,7 @@ export const projectsData = [
     info: "Grad school capstone project focussing on facilitating the creation of platform agnostic VR by using markdown files of text and images -- and no code whatsoever.",
     info2: "",
     url: "https://mallocivr.github.io",
-    projpage: "malloci", // if no repo, the button will not show up
+    projpage: "https://github.com/mallocivr/mallocivr.github.io", // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -49,26 +49,8 @@ export const projectsData = [
     title: "Avian Ambiguities",
     info: "A graphic novella",
     info2: "",
-    url: "https://sharanya204.github.io/sos/",
-    projpage: "https://github.com/sharanya204/sos/", // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: "02-sos.png",
-    title: "The Art of Fine Dying",
-    info: 'A collaborative curation of infographics illustrating the dire straits of endangered species at the hands of humans. The driver I focused on was "art".',
-    info2: "",
-    url: "https://sharanya204.github.io/sos/",
-    projpage: "https://github.com/sharanya204/sos/", // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: "02-sos.png",
-    title: "Tangible User Interfaces",
-    info: 'A collaborative curation of infographics illustrating the dire straits of endangered species at the hands of humans. The driver I focused on was "art".',
-    info2: "",
-    url: "https://sharanya204.github.io/sos/",
-    projpage: "https://github.com/sharanya204/sos/", // if no repo, the button will not show up
+    url: "https://issuu.com/sharanya204/docs/bookfinaled",
+    projpage: "avianambiguities", // if no repo, the button will not show up
   },
 ];
 
