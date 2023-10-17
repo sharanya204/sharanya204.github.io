@@ -36,7 +36,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: "02-sos.png",
+    img: "sos-02.png",
     title: "Save Our Species",
     info: 'A collaborative curation of infographics illustrating the dire straits of endangered species at the hands of humans. The driver I focused on was "art".',
     info2: "",
@@ -45,12 +45,21 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: "02-sos.png",
+    img: "aa_01.png",
     title: "Avian Ambiguities",
-    info: "A graphic novella",
+    info: "A graphic novella about the evolution of birds.",
     info2: "",
     url: "https://issuu.com/sharanya204/docs/bookfinaled",
     projpage: "avianambiguities", // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: "portaledge.png",
+    title: "Portaledge",
+    info: "If you'd like to see more whimsy but in CLI",
+    info2: "",
+    url: "https://github.com/sharanya204/term-site",
+    projpage: "", // if no repo, the button will not show up
   },
 ];
 

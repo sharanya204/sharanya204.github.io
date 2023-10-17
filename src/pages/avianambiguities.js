@@ -38,10 +38,10 @@ const aa = () => {
         <Link className="nav__text" to="/">
           Home
         </Link>
-        <Link className="nav__text" to="#projects">
+        <Link className="nav__text" to="/#projects">
           Projects
         </Link>
-        <Link className="nav__text" to="#about">
+        <Link className="nav__text" to="/#about">
           About
         </Link>
       </nav>

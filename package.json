@@ -15,10 +15,10 @@
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "prepare": "husky install",
     "pre-commit": "lint-staged"
   },
   "dependencies": {
+    "source-map": "^0.8.0-beta.0",
     "@babel/eslint-parser": "^7.17.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
@@ -42,9 +42,9 @@
     "gh-pages": "^3.2.3",
     "node-sass": "^7.0.1",
     "prettier": "^2.6.1",
-    "react": "^17.0.2",
+    "react": "^16.0.0",
     "react-bootstrap": "^2.2.2",
-    "react-dom": "^17.0.1",
+    "react-dom": "^16.0.0",
     "react-github-btn": "^1.2.2",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
@@ -60,11 +60,13 @@
     "eslint": "^8.12.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.29.4",
-    "husky": "^7.0.0",
     "lint-staged": "^12.3.7",
     "sass": "^1.49.11",
     "sass-loader": "^12.6.0",
     "webpack": "^5.71.0"
+  },
+  "resolutions": {
+    "source-map": "^0.8.0-beta.0"
   },
   "lint-staged": {
     "*.+(js|jsx)": [
