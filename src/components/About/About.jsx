@@ -28,7 +28,7 @@ const About = () => {
               <div className="about-wrapper__image">
                 <AboutImg
                   alt="profile picture"
-                  filename={"Sharanya_mugshot.jpg"}
+                  filename={"Sharanya_about.png"}
                 />
               </div>
             </Fade>

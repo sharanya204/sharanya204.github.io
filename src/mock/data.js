@@ -17,7 +17,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  img: "Sharanya_mugshot.jpg",
+  img: "Sharanya_about.png",
   paragraphOne: "",
   paragraphTwo: "",
   paragraphThree: "",
@@ -36,7 +36,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: "sos-02.png",
+    img: "sos-01.png",
     title: "Save Our Species",
     info: 'A collaborative curation of infographics illustrating the dire straits of endangered species at the hands of humans. The driver I focused on was "art".',
     info2: "",
