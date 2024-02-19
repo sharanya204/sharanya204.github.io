@@ -58,8 +58,8 @@ export const projectsData = [
     title: "Portaledge",
     info: "If you'd like to see more whimsy but in CLI",
     info2: "",
-    url: "https://github.com/sharanya204/term-site",
-    projpage: "", // if no repo, the button will not show up
+    url: "https://sharanya-portaledge.vercel.app/",
+    projpage: "https://github.com/sharanya204/term-site", // if no repo, the button will not show up
   },
 ];
 

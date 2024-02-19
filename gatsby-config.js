@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `sharanya-land`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.sharanyasound.com`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
