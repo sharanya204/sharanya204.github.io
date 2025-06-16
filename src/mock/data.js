@@ -49,7 +49,7 @@ export const projectsData = [
     title: "Avian Ambiguities",
     info: "A graphic novella about the evolution of birds.",
     info2: "",
-    url: "https://issuu.com/sharanya204/docs/bookfinaled",
+    url: "",
     projpage: "avianambiguities", // if no repo, the button will not show up
   },
   {
