@@ -44,8 +44,8 @@ const aa = () => {
       </nav>
       <Container>
         <Title title="Avian Ambiguities" />
-        <Row className="aa-wrapper">
-          <Col md={8} sm={12}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={6} sm={12}>
             <Fade
               left={isDesktop}
               bottom={isMobile}
@@ -68,8 +68,8 @@ const aa = () => {
             </Fade>
           </Col>
         </Row>
-        <Row>
-          <Col md={10} sm={2}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={12} sm={2}>
             <Fade
               left={isDesktop}
               bottom={isMobile}
@@ -86,8 +86,8 @@ const aa = () => {
             </Fade>
           </Col>
         </Row>
-        <Row className="aa-wrapper">
-          <Col md={8} sm={12}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={6} sm={12}>
             <Fade
               left={isDesktop}
               bottom={isMobile}
@@ -97,7 +97,7 @@ const aa = () => {
             >
               <div className="aa-wrapper__info">
                 <p className="aa-wrapper__info-text">
-                  It follows a narration by two galactic microorganisms who are recording the Earth’s history prior to its destruction by a comet.
+                  Two galactic microorganisms are recording the Earth’s history prior to its destruction by a comet.
                   {"\n"}<br />
                   <br />
                 </p>
@@ -105,8 +105,8 @@ const aa = () => {
             </Fade>
           </Col>
         </Row>
-        <Row>
-          <Col md={10} sm={2}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={12} sm={2}>
             <Fade
               left={isDesktop}
               bottom={isMobile}
@@ -123,8 +123,8 @@ const aa = () => {
             </Fade>
           </Col>
         </Row>
-        <Row className="aa-wrapper">
-          <Col md={8} sm={12}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={6} sm={12}>
             <Fade
               left={isDesktop}
               bottom={isMobile}
@@ -145,8 +145,8 @@ const aa = () => {
             </Fade>
           </Col>
         </Row>
-        <Row>
-          <Col md={10} sm={2}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={12} sm={2}>
             <Fade
               left={isDesktop}
               bottom={isMobile}
@@ -163,8 +163,8 @@ const aa = () => {
             </Fade>
           </Col>
         </Row>
-        <Row className="aa-wrapper">
-          <Col md={8} sm={12}>
+        <Row className="aa-wrapper" style={{ paddingBottom: 50 }}>
+          <Col md={6} sm={12}>
             <Fade
               left={isDesktop}
               bottom={isMobile}

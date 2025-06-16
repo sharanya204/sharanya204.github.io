@@ -49,7 +49,6 @@ export const projectsData = [
     title: "Avian Ambiguities",
     info: "A graphic novella about the evolution of birds.",
     info2: "",
-    url: "",
     projpage: "avianambiguities", // if no repo, the button will not show up
   },
   {
