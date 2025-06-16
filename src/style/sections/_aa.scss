@@ -21,14 +21,20 @@
     &__image {
       display: flex;
       height: 100%;
-      align-items: center;
-      justify-content: center;
+      align-items: right;
+      justify-content: right;
+      padding-bottom: 6rem;
 
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
+        align-items: center;
       }
       @include respond(tab-land) {
         height: 100%;
+        align-items: center;
+      }
+      @include respond(phone) {
+        align-items: center;
       }
     }
 
